@@ -46,11 +46,6 @@
   height: auto;
 }
 
-.Technologies .technologiesWrapper .technologiesContent .technologiesItem img:hover {
-  -webkit-transform: scale(1.5, 1.5);
-          transform: scale(1.5, 1.5);
-}
-
 @media (max-width: 800px) {
   .Technologies .technologiesWrapper .technologiesContent {
     -webkit-box-orient: vertical;
