@@ -1,0 +1,57 @@
+.Technologies {
+  width: 100%;
+  height: 40%;
+  color: white;
+}
+
+.Technologies .technologiesWrapper {
+  background-color: black;
+  padding: 4%;
+}
+
+.Technologies .technologiesWrapper .technologiesHeader {
+  margin-left: 15px;
+}
+
+.Technologies .technologiesWrapper .technologiesContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: 20px 15px;
+}
+
+.Technologies .technologiesWrapper .technologiesContent .technologiesItem {
+  -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Technologies .technologiesWrapper .technologiesContent .technologiesItem img {
+  width: 30%;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .Technologies .technologiesWrapper .technologiesContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=technologies.css.map */

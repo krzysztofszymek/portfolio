@@ -1,0 +1,21 @@
+.AboutMe {
+  width: 100%;
+  height: 40%;
+  margin-top: -10%;
+}
+
+.AboutMe .aboutWrapper {
+  background-color: black;
+  padding: 4%;
+  color: white;
+}
+
+.AboutMe .aboutWrapper .aboutHeader {
+  margin-left: 15px;
+}
+
+.AboutMe .aboutWrapper .aboutContent {
+  width: 60%;
+  margin: 20px 15px;
+}
+/*# sourceMappingURL=AboutMe.css.map */
