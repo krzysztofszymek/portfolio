@@ -1,0 +1,20 @@
+.AboutMe {
+    width: 100%;
+    height: 40%;
+    margin-top: -10%;
+
+    .aboutWrapper {
+        background-color: black;
+        padding: 5%;
+        color: white;
+
+        .aboutHeader {
+            margin-left: 15px;
+        }
+
+        .aboutContent {
+            width: 60%;
+            margin: 20px 15px;
+        }
+    }
+}
