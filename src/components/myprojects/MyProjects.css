@@ -1,19 +1,19 @@
-.Interests {
+.MyProjects {
   width: 100%;
   height: 40%;
   color: white;
 }
 
-.Interests .interestsWrapper {
+.MyProjects .projectsWrapper {
   background-color: #444abe;
   padding: 4%;
 }
 
-.Interests .interestsWrapper .interestsHeader {
+.MyProjects .projectsWrapper .projectsHeader {
   margin-left: 15px;
 }
 
-.Interests .interestsWrapper .interestsContent {
+.MyProjects .projectsWrapper .projectsContent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,20 +33,11 @@
   margin: 20px 15px;
 }
 
-.Interests .interestsWrapper .interestsContent .interestsItem {
+.MyProjects .projectsWrapper .projectsContent .projectsItem {
   -webkit-box-flex: 20%;
       -ms-flex: 20%;
           flex: 20%;
   text-align: center;
   margin-top: 20px;
 }
-
-@media (max-width: 800px) {
-  .Interests .interestsContent {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-/*# sourceMappingURL=Interests.css.map */
+/*# sourceMappingURL=MyProjects.css.map */

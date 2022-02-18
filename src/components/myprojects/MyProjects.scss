@@ -1,17 +1,17 @@
-.Interests {
+.MyProjects {
     width: 100%;
     height: 40%;
     color: white;
 
-    .interestsWrapper {
+    .projectsWrapper {
         background-color: #444abe;
         padding: 4%;
 
-        .interestsHeader {
+        .projectsHeader {
             margin-left: 15px;
         }
 
-        .interestsContent {
+        .projectsContent {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -20,17 +20,11 @@
             width: 100%;
             margin: 20px 15px;
 
-            .interestsItem {
+            .projectsItem {
                 flex: 20%;
                 text-align: center;
                 margin-top: 20px;
             }
-        }
-    }
-
-    @media (max-width: 800px) {
-        .interestsContent {
-          flex-direction: column;
         }
     }
 }
