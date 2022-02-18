@@ -10,7 +10,7 @@ function MyProjects() {
                 </div>
                 <div className="projectsContent">
                     <div className="projectsItem">
-                        <h2>W trakcie tworzenia <FaCog/></h2>
+                        <h2>W trakcie tworzenia <FaCog className='cog'/></h2>
                     </div>
                 </div>
             </div>

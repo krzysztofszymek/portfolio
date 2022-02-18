@@ -9,6 +9,8 @@ function Intro() {
                     <h1>Cześć !</h1>
                     <h1>Nazywam się Krzysiek</h1>
                     <h2>Witaj na moim portfolio !</h2>
+                    <br/>
+                    <h4>E-mail: kszymek33@gmail.com</h4>
                 </div>
             </div>
             <div className='profilePicture'>

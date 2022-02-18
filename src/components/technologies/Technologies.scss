@@ -29,6 +29,10 @@
                     width: 30%;
                     height: auto;
                 }
+
+                img:hover {
+                    transform: scale(1.5, 1.5);
+                }
             }
         }
 
