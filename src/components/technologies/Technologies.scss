@@ -1,0 +1,41 @@
+.Technologies {
+    width: 100%;
+    height: 40%;
+    color: white;
+
+    .technologiesWrapper {
+        background-color: black;
+        padding: 4%;
+
+        .technologiesHeader {
+            margin-left: 15px;
+        }
+
+        .technologiesContent {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin: 20px 15px;
+
+            .technologiesItem {
+                flex: 20%;
+                text-align: center;
+                margin-top: 20px;
+
+                img {
+                    width: 30%;
+                    height: auto;
+                }
+            }
+        }
+
+        @media (max-width: 800px) {
+            .technologiesContent {
+              flex-direction: column;
+            }
+          }
+    }
+}
