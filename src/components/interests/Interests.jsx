@@ -1,5 +1,5 @@
 import './Interests.scss'
-import { FaGamepad, FaLanguage, FaPaintBrush, FaPaintRoller, FaPalette } from 'react-icons/fa'
+import { FaGamepad, FaLanguage, FaPalette } from 'react-icons/fa'
 
 function Interests() {
     return ( 
