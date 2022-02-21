@@ -1,0 +1,17 @@
+.upbutton {
+    display: block;
+    position: fixed;
+    right: 6%;
+    bottom: 6%;
+
+    button {
+        color: white;
+        border: .2rem solid #444abe;
+        border-radius: 30%;
+        background-color: black;
+    }    
+
+    button:hover {
+        cursor: pointer;
+    }
+}
