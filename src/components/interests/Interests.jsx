@@ -1,5 +1,5 @@
 import './Interests.scss'
-import { FaGamepad, FaLanguage, FaPalette } from 'react-icons/fa'
+import { FaGamepad, FaLanguage, FaCropAlt} from 'react-icons/fa'
 
 function Interests() {
     return ( 
@@ -18,7 +18,7 @@ function Interests() {
                         <h2>Języki obce</h2>
                     </div>
                     <div className="interestsItem">
-                        <FaPalette size={60}/>
+                        <FaCropAlt size={60}/>
                         <h2>Obróbka obrazów</h2>
                     </div>
                 </div>

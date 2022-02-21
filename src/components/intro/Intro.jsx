@@ -7,10 +7,10 @@ function Intro() {
             <div class="greetings">
                 <div className="wrapper">
                     <h1>Cześć !</h1>
-                    <h1>Nazywam się Krzysiek</h1>
-                    <h2>Witaj na moim portfolio !</h2>
+                    <p>Nazywam się Krzysiek</p>
+                    <p>Witaj na moim portfolio !</p>
                     <br/>
-                    <h4>E-mail: kszymek33@gmail.com</h4>
+                    <p>E-mail: krzysztof.r.szymek@gmail.com</p>
                 </div>
             </div>
             <div className='profilePicture'>

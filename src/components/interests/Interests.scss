@@ -8,7 +8,7 @@
         padding: 4%;
 
         .interestsHeader {
-            margin-left: 15px;
+            margin-left: 1rem;
         }
 
         .interestsContent {
@@ -18,19 +18,19 @@
             align-items: center;
             justify-content: center;
             width: 100%;
-            margin: 20px 15px;
 
             .interestsItem {
                 flex: 20%;
                 text-align: center;
-                margin-top: 20px;
+                margin-top: 1rem;
+            }
+        }
+        @media (max-width: 800px) {
+            .interestsContent {
+            flex-direction: column;
             }
         }
     }
 
-    @media (max-width: 800px) {
-        .interestsContent {
-          flex-direction: column;
-        }
-    }
+    
 }

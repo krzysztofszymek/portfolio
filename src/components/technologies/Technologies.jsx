@@ -5,28 +5,28 @@ function Technologies() {
         <div className="Technologies">
             <div className="technologiesWrapper">
                 <div className="technologiesHeader">
-                    <h1>To znam</h1>
+                    <h1>Ulubione technologie</h1>
                 </div>
                 <div className="technologiesContent">
                     <div className="technologiesItem">
                         <img src="/img/html-icon.png" alt="html-icon"/>
-                        <h1>HTML</h1>
+                        <p>HTML</p>
                     </div>
                     <div className="technologiesItem">
                         <img src="/img/js-icon.png" alt="js-icon"/>
-                        <h1>JavaScript</h1>
+                        <p>JavaScript</p>
                     </div>
                     <div className="technologiesItem">
                         <img src="/img/react-icon.png" alt="react-icon"/>
-                        <h1>React</h1>
+                        <p>React</p>
                     </div>
                     <div className="technologiesItem">
                         <img src="/img/sass-icon.png" alt="sass-icon"/>
-                        <h1>Sass</h1>
+                        <p>Sass</p>
                     </div>
                     <div className="technologiesItem">
                         <img src="/img/c-icon.png" alt="c-icon"/>
-                        <h1>C#</h1>
+                        <p>C#</p>
                     </div>
                 </div>
             </div>

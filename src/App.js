@@ -3,6 +3,7 @@ import AboutMe from './components/aboutme/AboutMe';
 import Technologies from './components/technologies/Technologies';
 import Interests from './components/interests/Interests';
 import MyProjects from './components/myprojects/MyProjects';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Interests />
       <Technologies />
       <MyProjects />
+      <Footer />
     </div>
   );
 }
