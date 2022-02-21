@@ -11,15 +11,15 @@ function Interests() {
                 <div className="interestsContent">
                     <div className="interestsItem">
                         <FaGamepad size={70}/>
-                        <h2>Gry</h2>
+                        <p>Gry</p>
                     </div>
                     <div className="interestsItem">
                         <FaLanguage size={70}/>
-                        <h2>Języki obce</h2>
+                        <p>Języki obce</p>
                     </div>
                     <div className="interestsItem">
                         <FaCropAlt size={60}/>
-                        <h2>Obróbka obrazów</h2>
+                        <p>Obróbka obrazów</p>
                     </div>
                 </div>
             </div>
