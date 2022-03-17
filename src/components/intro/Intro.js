@@ -4,7 +4,7 @@ import profilePicture from './photo2.png'
 function Intro() {
     return ( 
         <div className="intro">
-            <div class="greetings">
+            <div className="greetings">
                 <div className="wrapper">
                     <h1>Cześć !</h1>
                     <p>Nazywam się Krzysiek</p>

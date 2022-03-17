@@ -5,7 +5,26 @@
     background-color: black;
 
     .wrapper {
+        display: flex;
+        flex-direction: row;
         padding: 1%;
         margin-left: 3rem;
+
+
+        a.footer-item {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            margin-right: 10%;
+
+            .icon {
+                margin-right: 10px;
+            }
+
+            &:visited {
+                text-decoration: none;
+            }
+        }
     }
 }
