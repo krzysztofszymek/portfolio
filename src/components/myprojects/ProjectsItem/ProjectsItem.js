@@ -8,7 +8,9 @@ function ProjectsItem(props) {
             </div>
             <div className="content">
                 <div className="image">
-                    <img src={props.img} alt={props.alt}/>
+                    <a href={props.link}>
+                        <img src={props.img} alt={props.alt}/>
+                    </a>
                 </div>
                 <div className="description">
                     {props.description}
