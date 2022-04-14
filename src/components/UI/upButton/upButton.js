@@ -4,7 +4,7 @@ import { FaArrowUp } from "react-icons/fa";
 function UpButton() {
     return (
         <div className="upbutton">
-            <button onClick={() => (window.scrollTo(0, 0))}>
+            <button onClick={() => window.scroll({top: 0, behavior: 'smooth'})}>
                 <FaArrowUp size={30}/>
             </button>
         </div>

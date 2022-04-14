@@ -8,8 +8,8 @@ function Aboutme() {
                 <h1>O mnie</h1>
             </div>
             <div className="aboutContent">
-                <p> Mam 23 lata i jestem absolwent Uniwesytetu Zielonogórskiego na kierunku Informatyka.
-                Interesuję się tworzeniem aplikacji webowych zarówno od strony klienta jak i serwera. </p>
+                <p> Mam 24 lata i jestem absolwent Uniwesytetu Zielonogórskiego na kierunku Informatyka.
+                Interesuję się tworzeniem aplikacji i stron internetowych za pomoca React.js.</p>
             </div>
         </div>
     </div>

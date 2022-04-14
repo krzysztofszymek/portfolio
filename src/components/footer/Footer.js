@@ -5,8 +5,8 @@ function Footer() {
     return ( 
         <div className="footer">
             <div className="wrapper">
-                {FooterData.map((item) => 
-                    <a href={item.link} className='footer-item'>
+                {FooterData.map((item, id) => 
+                    <a key={id} href={item.link} className='footer-item'>
                         <div className='icon' key={item.name}>
                             {item.icon}
                         </div>
