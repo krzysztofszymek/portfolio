@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import './MyProjects.scss'
-import ProjectsData from './ProjectsData/ProjectsData';
 import ProjectsItem from './ProjectsItem/ProjectsItem';
 
 function MyProjects() {
